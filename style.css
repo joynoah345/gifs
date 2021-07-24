@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    border: 3px solid black;
+    background: rgb(169, 253, 253);
+}
+h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+img{
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    
+}
+.row{
+    vertical-align: middle;
+    display: block;
+    margin-bottom: 30px;
+}
+a{
+    padding-left: 30px;
+}
+
+@media (max-width:937px) and (min-width:636px){
+    img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media (max-width:635px) and (min-width:580px)
+{
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+}
