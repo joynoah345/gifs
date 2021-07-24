@@ -1,7 +1,6 @@
 body{
     text-align: center;
     border: 3px solid black;
-    background: rgb(169, 253, 253);
 }
 h1{
     font-size: 50px;
@@ -33,6 +32,12 @@ a{
     img{
         width: 100px;
         height: 100px;
+    }
+}
+@media(max-width:375px){
+    img{
+        width: 50px;
+        height: 50px;
     }
 }
 
