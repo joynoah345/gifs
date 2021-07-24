@@ -28,10 +28,16 @@ a{
     }
 }
 
-@media (max-width:937px) and (min-width:636px){
+@media (max-width:937px) and (min-width:731px){
     img{
         width: 200px;
         height: 200px;
+    }
+}
+@media (max-width:730px) and (min-width:636px){
+    img{
+        width: 150px;
+        height: 150px;
     }
 }
 @media (max-width:635px) and (min-width:580px)
@@ -41,10 +47,22 @@ a{
         height: 100px;
     }
 }
-@media(max-width:400px){
+@media (max-width:579px) and (min-width:401px){
     img{
-        width: 50px;
-        height: 50px;
+        width: 75px;
+        height: 75px;
+    }
+}
+@media(max-width:400px) and (min-width:280px){
+    img{
+        width: 45px;
+        height: 45px;
+    }
+}
+@media (max-width:279px) {
+    img{
+        width: 35px;
+        height: 35px;
     }
 }
 
