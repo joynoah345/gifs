@@ -49,18 +49,21 @@ a{
 }
 @media (max-width:579px) and (min-width:401px){
     img{
+        border: 1px solid black;
         width: 75px;
         height: 75px;
     }
 }
 @media(max-width:400px) and (min-width:280px){
     img{
+        border: 1px solid black;
         width: 45px;
         height: 45px;
     }
 }
 @media (max-width:279px) {
     img{
+        border: 1px solid black;
         width: 35px;
         height: 35px;
     }
